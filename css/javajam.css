@@ -1,0 +1,174 @@
+
+html{
+	height: 100%;
+}
+
+body{ 
+	background-color: #FCEBB6; color:  #221811;
+	font-family: Verdana, Arial, San-serif;
+}
+
+a:link{
+	color: rgb(58, 160, 151);
+	text-decoration: none;
+}
+a:visited{
+	color: rgb(58, 160, 151);
+	text-decoration: none;
+}
+a:hover{
+	color: cornflowerblue;
+}
+
+
+.navbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #D2B48C;
+	padding-right: 70px;
+}
+.navbar li{
+	float: right;
+}
+
+
+.navbar li a{
+	display: block;
+	text-align: center;
+	padding: 25px 16px;
+	text-decoration: none;
+}
+
+.navbar li header{
+	display: block;
+	text-align: right;
+	padding: 14px 16px;
+}
+
+.navbar li a:hover{
+	background-color: rgb(70, 60, 60);
+}
+
+
+li{
+	list-style-type: none;
+}
+
+.contact-form{
+	margin-top: 40px;
+}
+.fcc-btn {
+	background-color:#D2B48C;
+	color: white;
+	padding: 15px 25px;
+	text-decoration: none;
+  }
+.thank-you{
+
+	margin-top: 80px;
+}
+.main-items{
+	background-color:#FCEBB6;
+	color: #FCEBB6;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+#wrapper{ 
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 50px;
+	padding-bottom: 180px;
+	align-content: center;
+	min-height: 100%;
+	text-align: center;
+}
+
+#wrapper .categories{
+	align-content: center;
+}
+
+
+.courses{
+	text-align: center;
+	padding: 5px;
+	padding-left: 120px;
+}
+
+#wrapper .menu-item{
+	display: inline-block;
+	/* float:left; */
+	width: 30%;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.menu-item p{
+	text-align: center;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #D2B48C;
+	font-size: 10px;
+	text-align: center;
+  }
+
+@media screen and (max-width: 910px){
+	h2{
+		font-size: 30px;
+	}
+	p{
+		font-size: 20px;
+	}
+	#wrapper .menu-item{
+		float: left;
+		width: 100%;
+		padding: 5px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+	
+}
+
+@media screen and (max-width: 420){
+	h2{
+		font-size: 30px;
+	}
+	.menu-item{
+		width: 100%;
+		padding: 0%;
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+}
+
+/* @media screen and (max-width: px) {
+	h2{
+		font-size: 50px;
+	}
+	nav{
+		font-size: 45px;
+		text-align: center;
+	}
+	.main-items{
+		font-size: 35px;
+		text-align: center;
+	}
+
+	footer{
+		padding-top: 700px;
+	}
+} */
